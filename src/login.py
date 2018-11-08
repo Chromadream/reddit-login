@@ -16,3 +16,4 @@ def login_flow(username, password, client_id, client_secret):
         data=post_data,
         headers=headers,
     )
+    return response.json()
